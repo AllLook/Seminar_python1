@@ -4,7 +4,7 @@ if number <= 0 or number == 0 or number == 1 or number > 100000:
     exit()
 i = 0
 for j in range(2, number // 2 + 1):
-    if (number % j == 0):
+    if number % j == 0:
         i += 1
 if i == 0:
     print("Число простое!")
