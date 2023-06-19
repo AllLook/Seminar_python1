@@ -7,7 +7,7 @@ operation_sheet = []
 
 
 def withdrawal(SUM_ACTION):
-    global res_amount
+    global res_amount 
     if res_amount < SUM_ACTION:
         print("Недостаточно средств!")
         sys.exit()
