@@ -4,7 +4,7 @@ def fun_key(**kwargs):
     print(temp_dict)
     res = {}
     for i in range(len(temp_dict)):
-        for item,value in temp_dict.items():
+        for item,value in temp_dict.items(): 
             #print(value)
             if value.__hash__ is not None:
                 value#то что будет ключем

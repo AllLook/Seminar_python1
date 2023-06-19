@@ -12,6 +12,6 @@
 matrix = iter([[1, 5, 9, 7], [8, 0, 6, 3], [9, 8, 6, 5]])
 matrix2 = zip(next(matrix), next(matrix), next(matrix))
 # matrix2 = list(zip(list(next(matrix)),list(next(matrix)),list(next(matrix))))#так выдает лист кортежей,почему сразу нельзя применить и перевести так в список списков?
-res_matrix = list(map(list, matrix2))
+res_matrix = list(map(list, matrix2)) 
 print(res_matrix)
 # print(matrix2)  
