@@ -59,6 +59,5 @@ while run:
     elif action == "список":
         print(operation_sheet)
     else:
-        action == "стоп"
         run = False 
         print("До свидания!")
