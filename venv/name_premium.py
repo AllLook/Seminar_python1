@@ -22,4 +22,4 @@ else:
     print("Не корректный ввод!")
 
 
-name_prem(name_, bid, premium)
+name_prem(name_, bid, premium) 

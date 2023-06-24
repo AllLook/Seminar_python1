@@ -5,4 +5,4 @@ def fib(num):
         a, b = b, a + b
 
 
-print(list(fib(10)))
+print(list(fib(10))) 
